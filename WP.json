@@ -69,7 +69,7 @@
       "MaxLength": "41",
       "AllowedPattern" : "[a-zA-Z0-9]*",
       "ConstraintDescription" : "must contain only alphanumeric characters",
-      "Default" : "S099"
+      "Default" : "qwerty1234"
     },
 
     "MultiAZDatabase": {
