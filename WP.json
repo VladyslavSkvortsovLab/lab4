@@ -69,7 +69,7 @@
       "MaxLength": "41",
       "AllowedPattern" : "[a-zA-Z0-9]*",
       "ConstraintDescription" : "must contain only alphanumeric characters",
-      "Default" : "admin"
+      "Default" : "S099"
     },
 
     "MultiAZDatabase": {
