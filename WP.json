@@ -9,7 +9,7 @@
       "Description" : "Name of an existing EC2 key pair to enable SSH access to the instances",
       "Type": "AWS::EC2::KeyPair::KeyName",
       "ConstraintDescription" : "must be the name of an existing EC2 KeyPair."
-      "Default": "admin"
+      "Default" : "admin"
     },
 
     "InstanceType" : {
@@ -58,7 +58,7 @@
       "MaxLength": "16",
       "AllowedPattern" : "[a-zA-Z][a-zA-Z0-9]*",
       "ConstraintDescription" : "must begin with a letter and contain only alphanumeric characters."
-      "Default": "admin"
+      "Default" : "admin"
     },
 
     "DBPassword" : {
@@ -69,7 +69,7 @@
       "MaxLength": "41",
       "AllowedPattern" : "[a-zA-Z0-9]*",
       "ConstraintDescription" : "must contain only alphanumeric characters."
-      "Default": "admin"
+      "Default" : "admin"
     },
 
     "MultiAZDatabase": {
